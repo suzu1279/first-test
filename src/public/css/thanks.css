@@ -1,0 +1,42 @@
+.thanks__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.thanks__heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #868686;
+    margin: 50px 0;
+    margin-top: 200px;
+}
+
+.background-text{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+    color: rgba(209,201,173,0.2);
+    white-space: nowrap;
+    font-family: "Libertinus Serif", serif;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.home-button{
+    color: #fff;
+    background: #808080;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}

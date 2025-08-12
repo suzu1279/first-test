@@ -1,0 +1,137 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #808080;
+    font-family: "Libertinus Serif", serif;
+    font-size: 25px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    color: #ff0000;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--name input,
+.form__input--email input,
+.form__input--tel input,
+.form__input--address input,
+.form__input--building input,
+.form__input--textarea textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: rgba(220, 220, 220, 0.3);
+    appearance: none;
+    color: rgba(128, 128, 128);
+}
+
+.form__input--name input {
+    height: 20px;
+    width: 290px;
+    margin: 0px;
+}
+
+.form__radio--gender {
+    justify-content: space-around;
+    display: flex;
+}
+
+.gender {
+    width: 100px;
+    height: 20px;
+    color: #ddd;
+    margin-right: 65px;
+    letter-spacing: normal;
+}
+
+.form__input--email input {
+    height: 20px;
+    width: 600px;
+    margin-right: 0px;
+}
+
+.form__input--tel input {
+    height: 20px;
+    width: 175px;
+    margin-right: 0px;
+}
+
+.form__input--address input {
+    height: 20px;
+    width: 600px;
+    margin: 0;
+}
+
+.form__input--building input {
+    height: 20px;
+    width: 600px;
+    margin: 0;
+}
+
+.type__of--content {
+    position: relative;
+    padding: 0 0 0 16px;
+    border: 1px solid #ddd;
+    background-color: rgba(220, 220, 220, 0.3);
+    appearance: none;
+    color: rgba(128, 128, 128);
+    margin-right: 220px;
+    width: 400px;
+    height: 40px;
+}
+
+.type__of--content::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid rgba(128, 128, 128);
+}
+
+.form__input--textarea textarea {
+    height: 150px;
+    width: 600px;
+    margin: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button--submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    background-color: #808080;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
