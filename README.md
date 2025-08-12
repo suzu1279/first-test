@@ -19,3 +19,7 @@ Dockerビルド
   URL  
     ・開発環境：http://localhost/  
     ・phpMyAdmin: http://localhost:8080/  
+  
+ER図  
+<img width="508" height="352" alt="image" src="https://github.com/user-attachments/assets/0922e01b-a668-4e07-a1fb-4080707f93f9" />
+
