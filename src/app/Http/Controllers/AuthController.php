@@ -34,9 +34,8 @@ class AuthController extends Controller
 
     public function admin()
     {
-        $contacts:: Contact::all();
-        $contacts = Contact::Paginate(7);
-        return view('admin',['contacts' => $contact]);
+        $contacts = Contact::paginate(7);
+        return view('admin',['contacts' => $contacts]);
     }
 
     public function find()
