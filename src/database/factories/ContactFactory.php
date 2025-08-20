@@ -17,7 +17,7 @@ class ContactFactory extends Factory
     public function definition()
     {
         return [
-            'category_id' =>$this->faker->randomNumber(1,5),
+            'category_id' =>$this->faker->numberBetween(1,5),
             'last_name' =>$this->faker->lastName,
             'first_name' =>$this->faker->firstName,
             'gender' =>$this->faker->randomElement($array=['男性','女性','その他']),
